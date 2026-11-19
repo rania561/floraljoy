@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تفاصيل الباقة | FLORAL JOY</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+        <span class="top-bar-badge">خصم 30% لفترة محدودة</span>
+        <span>فخامة تُصمَّم بما يناسب ميزانيتك — تنسيق احترافي لكافة المناسبات</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="https://wa.me/966501707487" target="_blank" dir="ltr"><i class="fa-brands fa-whatsapp"></i> +966501707487</a>
+        <span>|</span>
+        <span>اللغة: العربية</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/logo.svg" alt="FLORAL JOY Logo" class="brand-logo-icon">
+        <div class="brand-text-wrap">
+          <span class="brand-title">FLORAL JOY</span>
+          <span class="brand-subtitle">لتنسيق الحفلات والمناسبات الفاخرة</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link ">الرئيسية</a>
+        <div class="nav-dropdown">
+          <a href="events.html" class="nav-link active">جميع الحفلات <i class="fa-solid fa-chevron-down" style="font-size:0.75rem;"></i></a>
+          <div class="dropdown-menu" id="eventsDropdownList"></div>
+        </div>
+        <a href="ai-planner.html" class="nav-link "><i class="fa-solid fa-wand-magic-sparkles" style="color:#C5A059;"></i> مصمم الحفلات AI</a>
+        <a href="portfolio.html" class="nav-link ">سابقة الأعمال</a>
+        <a href="about.html" class="nav-link ">من نحن</a>
+        <a href="contact.html" class="nav-link ">تواصل معنا</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/966501707487?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20FLORAL%20JOY%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A9" target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-whatsapp"></i> احجز مناسبتك
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="القائمة">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="page-banner" style="padding:36px 0;">
+    <div class="container">
+      <div class="breadcrumb" style="margin-bottom:0;">
+        <a href="index.html">الرئيسية</a>
+        <span>/</span>
+        <a href="events.html">جميع الحفلات</a>
+        <span>/</span>
+        <span id="breadcrumbEventTitle">تفاصيل الحفلة</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" id="eventDetailContainer"></div>
+  </section>
+
+
+  <!-- Newsletter -->
+  <section class="newsletter-section">
+    <div class="container newsletter-box">
+      <div>
+        <h3 style="font-size:1.5rem; margin-bottom:6px;">كن أول من يعرف!</h3>
+        <p style="opacity:0.88;">اشترك بنشرتنا البريدية ليصلك كل جديد وعروض المناسبات الحصرية.</p>
+      </div>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); alert('شكراً لاشتراكك في نشرة FLORAL JOY البريدية!'); this.reset();">
+        <input type="email" placeholder="أدخل بريدك الإلكتروني..." required>
+        <button type="submit" class="btn btn-gold">اشترك الآن</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
+            <img src="assets/logo.svg" alt="FLORAL JOY" style="width:46px; height:46px;">
+            <span style="font-family:'Playfair Display',serif; font-size:1.4rem; font-weight:700; color:#FFFFFF; letter-spacing:2px;">FLORAL JOY</span>
+          </div>
+          <p style="color:#B4C2BC; font-size:0.94rem; margin-bottom:14px;">
+            <strong>فخامة تُصمَّم بما يناسب ميزانيتك</strong><br>
+            نقدّم حلول تنسيق احترافية للحفلات والمناسبات، بخيارات متعددة ومعيار جودة ثابت في كل تفصيلة.
+          </p>
+          <p style="color:#DFC48C; font-size:0.9rem;">الرقم الضريبي / السجل التجاري: <strong>7050107072</strong></p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">روابط تهمك</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="terms.html">الشروط والأحكام</a></li>
+            <li><a href="refund-policy.html">سياسة الإلغاء والاسترجاع</a></li>
+            <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">أقسام الحفلات</h4>
+          <ul class="footer-links">
+            <li><a href="event-details.html?id=wedding">حفلة زواج</a></li>
+            <li><a href="event-details.html?id=engagement">حفلة خطوبة</a></li>
+            <li><a href="event-details.html?id=graduation">حفلة تخرج</a></li>
+            <li><a href="event-details.html?id=gender-reveal">حفلة الكشف عن المولود</a></li>
+            <li><a href="events.html">عرض جميع الحفلات (15) ←</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">خدمة العملاء</h4>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/966501707487" target="_blank" dir="ltr"><i class="fa-brands fa-whatsapp" style="color:#25D366;"></i> +966501707487</a></li>
+            <li><a href="tel:+966501707487" dir="ltr"><i class="fa-solid fa-phone" style="color:#C5A059;"></i> +966501707487</a></li>
+            <li><a href="ai-planner.html"><i class="fa-solid fa-wand-magic-sparkles" style="color:#C5A059;"></i> جرب مصمم الحفلات الذكي</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>جميع الحقوق محفوظة © 2026 FLORAL JOY | متوافق مع منصة سلة السعودية</span>
+        <a href="#top" style="color:#DFC48C;">العودة إلى أعلى <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp & AI Chatbot -->
+  <div class="floating-widgets">
+    <button class="float-btn float-chatbot" id="chatbotToggle" title="مساعد FLORAL JOY الذكي">
+      <i class="fa-solid fa-robot"></i>
+    </button>
+    <a href="https://wa.me/966501707487?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20FLORAL%20JOY" target="_blank" class="float-btn float-whatsapp" title="تواصل واتساب">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <i class="fa-solid fa-sparkles" style="color:#DFC48C;"></i>
+        <strong>مساعد تنسيق FLORAL JOY</strong>
+      </div>
+      <button id="chatbotClose" style="background:none; border:none; color:#FFFFFF; font-size:1.1rem; cursor:pointer;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="chatbot-messages" id="chatMessages">
+      <div class="chat-msg bot">أهلاً بكِ في <strong>FLORAL JOY</strong>! كيف أساعدك اليوم في تنسيق مناسبتك بخصم 30%؟</div>
+    </div>
+    <div class="chat-quick-replies">
+      <button class="quick-chip">تفاصيل خصم 30%</button>
+      <button class="quick-chip">حفلات الزواج والخطوبة</button>
+      <button class="quick-chip">استقبال مولود</button>
+      <button class="quick-chip">رقم الواتساب</button>
+    </div>
+    <div class="chatbot-input">
+      <input type="text" id="chatInput" placeholder="اكتبي سؤالك هنا...">
+      <button id="chatSend" class="btn btn-primary" style="padding:8px 14px;"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
